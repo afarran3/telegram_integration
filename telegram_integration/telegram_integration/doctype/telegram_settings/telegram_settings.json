@@ -38,7 +38,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-18 11:39:29.590253",
+ "modified": "2023-01-18 16:44:50.198339",
  "modified_by": "Administrator",
  "module": "Telegram Integration",
  "name": "Telegram Settings",
@@ -58,6 +58,7 @@
    "write": 1
   }
  ],
+ "route": "Telegram Settings",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
