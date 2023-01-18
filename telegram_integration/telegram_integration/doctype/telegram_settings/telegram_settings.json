@@ -9,8 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "settings_name",
-  "telegram_token",
-  "bot_name"
+  "bot_name",
+  "telegram_token"
  ],
  "fields": [
   {
@@ -28,7 +28,7 @@
    "reqd": 1
   },
   {
-   "description": "The actual Telegram Bot name",
+   "description": "The actual Telegram Bot name\nYou can find it in your bot link: (https://t.me/[bot_name])",
    "fieldname": "bot_name",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -38,7 +38,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-18 16:44:50.198339",
+ "modified": "2023-01-18 18:37:01.293953",
  "modified_by": "Administrator",
  "module": "Telegram Integration",
  "name": "Telegram Settings",
@@ -56,6 +56,11 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "read": 1,
+   "role": "All",
+   "select": 1
   }
  ],
  "route": "Telegram Settings",
