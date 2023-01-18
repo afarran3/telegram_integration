@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include telegram_integration *.css
+recursive-include telegram_integration *.csv
+recursive-include telegram_integration *.html
+recursive-include telegram_integration *.ico
+recursive-include telegram_integration *.js
+recursive-include telegram_integration *.json
+recursive-include telegram_integration *.md
+recursive-include telegram_integration *.png
+recursive-include telegram_integration *.py
+recursive-include telegram_integration *.svg
+recursive-include telegram_integration *.txt
+recursive-exclude telegram_integration *.pyc
