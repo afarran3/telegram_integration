@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-18 09:58:09.193726",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_name",
+  "user",
+  "company_name",
+  "mobile_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "contact_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fetch_from": "contact_name.user",
+   "fieldname": "user",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "User Id"
+  },
+  {
+   "fetch_from": "contact_name.company_name",
+   "fieldname": "company_name",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Company"
+  },
+  {
+   "fetch_from": "contact_name.mobile_no",
+   "fieldname": "mobile_no",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Mobile No",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-18 09:58:09.193726",
+ "modified_by": "Administrator",
+ "module": "Telegram Integration",
+ "name": "SMS Contact List",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
