@@ -186,25 +186,25 @@ app_include_js = "./assets/telegram_integration/js/telegram_integration.js"
 # Scheduled Tasks
 # ---------------
 
-scheduler_events = {
-# 	"all": [
-# 		"telegram_integration.tasks.all"
-# 	],
-	"daily": [
-        "telegram_integration.telegram_integration.doctype.telegram_notification.telegram_notification.trigger_daily_alerts",
-        "telegram_integration.telegram_integration.doctype.sms_notification.sms_notification.trigger_daily_alerts",
-        "telegram_integration.telegram_integration.doctype.date_notification.date_notification.trigger_daily_alerts",
-    ],
-	# "hourly": [
-	# 	"telegram_integration.telegram_integration.doctype.date_notification.date_notification.trigger_daily_alerts",
-	# ],
-# 	"weekly": [
-# 		"telegram_integration.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"telegram_integration.tasks.monthly"
-# 	]
-}
+# scheduler_events = {
+# # 	"all": [
+# # 		"telegram_integration.tasks.all"
+# # 	],
+# 	"daily": [
+#         "telegram_integration.telegram_integration.doctype.telegram_notification.telegram_notification.trigger_daily_alerts",
+#         "telegram_integration.telegram_integration.doctype.sms_notification.sms_notification.trigger_daily_alerts",
+#         "telegram_integration.telegram_integration.doctype.date_notification.date_notification.trigger_daily_alerts",
+#     ],
+# 	# "hourly": [
+# 	# 	"telegram_integration.telegram_integration.doctype.date_notification.date_notification.trigger_daily_alerts",
+# 	# ],
+# # 	"weekly": [
+# # 		"telegram_integration.tasks.weekly"
+# # 	]
+# # 	"monthly": [
+# # 		"telegram_integration.tasks.monthly"
+# # 	]
+# }
 
 # Testing
 # -------
